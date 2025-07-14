@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Text Translator",
+  "version": "1.0",
+  "description": "Translate selected text into regional languages.",
+  "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
