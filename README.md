@@ -15,6 +15,7 @@ This is a simple Chrome extension that lets you translate selected text on a web
 ## How to Use
 
 1. **Download or clone this project**
+https://github.com/AfnasShafeeek/Text-translator-extension.git
 
 2. **Go to Chrome extensions**  
    Open Chrome and go to: `chrome://extensions`

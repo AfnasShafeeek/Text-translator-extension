@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     const selected = select.value;
     chrome.storage.sync.set({ language: selected }, () => {
-      alert("Saved: " + selected);
+      alert("Language chaged successfully...");
     });
   });
 });
